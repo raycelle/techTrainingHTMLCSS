@@ -1,0 +1,54 @@
+* {
+  font-family: 'Mirza', cursive;
+}
+
+h1 {
+  color: seagreen;
+  font-size: 50px;
+}
+
+p {
+  color: blue;
+}
+
+#purplep {
+  color: purple;
+}
+
+#header img {
+  width: 80px;
+  height: 80px;
+}
+
+#content img {
+  width: 30%;
+}
+
+#header {
+  background-color: linen;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background-color: gainsboro;
+  display:flex;
+  justify-content: flex-end;
+}
+span {
+  width:80px;
+}
+
+a {
+  text-decoration: none;
+  color:maroon;
+}
